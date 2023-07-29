@@ -1,0 +1,174 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header .contenu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header .contenu img{
+    width:  70px;
+    height: 70px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+main{
+    width: 1185px;
+    height: 1700px;
+}
+
+header .contenu nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+    }
+header .contenu nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    }
+
+    header .contenu h2{
+        margin-left: -350px;
+        }
+    header .contenu nav ul li a:hover {
+        color: orange;
+        border-bottom: 2px solid orangered;
+      
+     }
+     .contenu_section{
+         background-image:url('zain1.jpg');
+         background-repeat: no-repeat;
+         background-size: 100%;
+         /* background-color: orangered; */ 
+         height: 530px;
+         text-align: center; 
+     }
+        
+     .contenu_section p{
+       padding: 200px; 
+       font-weight: bold;
+       font-size: 56px;
+       color: wheat;
+       font-family: sans-serif;
+    }
+
+    .contenu_section1{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .contenu_section1 h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .contenu_section1 h2 a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .contenu_section2{
+        background-image:url('Zaine.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 400px;  
+        margin-left: 10%;  
+        margin-right: 10%;
+    }
+    .contenu_section2 .carte
+    {
+        text-align: center;
+        border: 2px solid white;
+        width: 320px;
+        height: 320px;
+        background-color: white; 
+    margin-right: 30px;
+
+    }
+
+    .contenu_section2  a:hover {
+        background-color: green;
+       
+    }
+
+    .contenu_section2  a{
+        text-decoration: none;
+        border: 1px  solid black;
+        background-color:tomato;
+        color:white;
+        padding: 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        border-radius: 4px;
+     }
+     #micheline{
+         background-color: aliceblue;
+     }
+     .michou{
+         display: flex;
+         justify-content: none;
+         align-items: none;
+         text-align: none;
+         padding: 20px;
+         background-color:darkgrey;
+         color: black;
+         height: 120px;
+         font-size: 10px;
+         width: 1185px;
+         margin-top: -30px;
+     }
+     .michou .justine{
+         width: 100px;
+         height: 100px;
+         padding-left: 100px;
+         text-align: center;
+     }
+     .michou .justine p{
+         font-family: sans-serif;
+         text-align: justify;
+         text-align: center;
+     }
+     .alia{
+        border: 1px solid rgb(255, 253, 253);
+         width: 380px;
+         height: 350px;
+         margin-top: 20px;
+         margin-left: 25px;
+     }
+     .aliaA{
+         border: 1px solid rgb(255, 253, 253);
+         width: 380px;
+         height: 350px;
+         margin-top: -350px;
+         margin-left: 430px;
+     }
+     .aliaB{
+        border: 1px solid rgb(255, 253, 253);
+         width: 380px;
+         height: 350px;
+         margin-top: -350px;
+         margin-left: 835px;
+     }
+     .alia1{
+        border: 1px solid rgb(255, 253, 253);
+         width: 280px;
+         height: 230px;
+         margin-top: 20px;
+         margin-left: 25px;
+     }
+     .alia1 img{
+        width: 280px;
+        height: 230px;
+     }
+     .copy{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:yellowgreen;
+        text-align: center;
+        margin-top: -20px;
+
+     }
